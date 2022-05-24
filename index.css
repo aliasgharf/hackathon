@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .App {
+    text-align: center;
+  }
+
+  
+
+  .App-header {
+    background-color:#202020ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+  }
+  
+.logo {
+  background-image: url("logo.png");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+  .App-link {
+    color: #61dafb;
+  }
+  
+  input[type=number] {
+    font-size: calc(10px + 2vmin);
+    width: 4em;
+  }
+  
+  button {
+    font-size: calc(20px + 2vmin);
+    color:white;
+    background-color: #F469DB;
+    border: 5px rgb(0, 0, 0);
+    
+    ;
+  }
+  
+  textarea {
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .ContractInfo {
+    font-size: calc(10px + 1vmin);
+    text-align: left;
+    width: 90vw;
+    height: 7em;
+    padding: 2vw;
+    overflow-x: scroll;
+    white-space: pre;
+  }
+
+  .button1 {
+    background:url(001.png);
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border: none;
+    font-size:large;
+    font-weight: bolder;
+  }
+  .button2 {
+    background:url(002.png);
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border: none;
+    font-size:large;
+    font-weight: bolder;
+  }
+
+  .button3 {
+    background:url(003.png);
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border: none;
+    font-size:large;
+    font-weight: bolder;
+  }
+
+  .button4 {
+    background:url(004.png);
+    background-size:cover;
+    height: 250px;
+    width: 250px;
+    border: none;
+    font-size:large;
+    font-weight: bolder;
+  }
